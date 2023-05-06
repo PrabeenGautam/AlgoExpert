@@ -16,8 +16,7 @@ def calculateTwoSum1(nums: list[int], target: int) -> list[int]:
 # Solution 2: using hashtable time complexity: O(n) and Storage: O(n)
 def calculateTwoSum2(array: list[int], target: int) -> list[int]:
     visited = {}
-    for index in range(len(array)):
-        first_number = array[index]
+    for index, first_number in enumerate(array):
         compliment = target - first_number
         if compliment in visited:
             return [first_number, compliment]
