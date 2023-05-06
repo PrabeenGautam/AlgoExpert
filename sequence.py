@@ -1,7 +1,8 @@
 array = [5, 1, 22, 25, 5, 6, -1, 8, 10]
-sequence = [5, 1, 22, 22, 25, 5, 6, -1, 8, 10]
+sequence = [5, 1, 22]
 
 
+# Time: O(n) and Space: O(1)
 def isValidSequence(array: list[int], sequence: list[int]) -> bool:
     seq_pointer = 0
     for value in array:
