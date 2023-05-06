@@ -21,7 +21,7 @@ def calculateTwoSum2(array: list[int], target: int) -> list[int]:
         if compliment in visited:
             return [first_number, compliment]
         else:
-            visited[first_number] = True
+            visited[first_number] = index
     return []
 
 
