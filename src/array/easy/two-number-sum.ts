@@ -1,6 +1,17 @@
 const input = [3, 5, -4, 8, 11, 1, -1, 6];
 const target = 10;
 
-function twoNumberSum(input: Array<number>, target: number) {}
+function twoNumberSum(nums: Array<number>, target: number) {
+  const hashedMap = new Map();
 
-export default () => twoNumberSum(input, target);
+  for (let value of nums) {
+    const secondNum = target - value;
+    if (hashedMap.has(secondNum)) {
+      return [value, secondNum];
+    }
+
+    hashedMap.set(value, true);
+  }
+}
+
+console.log(twoNumberSum(input, target));
