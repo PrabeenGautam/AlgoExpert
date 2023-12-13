@@ -1,0 +1,17 @@
+{
+  "name": "algoexpert",
+  "version": "1.0.0",
+  "description": "learning dsa",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch --clear-screen=false ./src/index.ts",
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^4.6.2"
+  }
+}
