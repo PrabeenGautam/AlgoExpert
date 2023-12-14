@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "tsx watch --clear-screen ./src/array/easy/subsequence.ts",
+    "dev": "tsx watch --clear-screen ./src/array/easy/sortedsquare.ts",
     "start": "tsc && node dist/index.js"
   },
   "keywords": [],
