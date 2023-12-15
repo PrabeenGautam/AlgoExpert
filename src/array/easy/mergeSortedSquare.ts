@@ -2,11 +2,6 @@ const input = [1, 2, 3, 5, 6, 8, 9];
 // const input = [-6, -2, 0, 4, 5, 6];
 
 function sortedSquares(nums: number[]) {
-  // Minimal Solutions
-  /*   const sortedArray = nums.sort((a, b) => Math.abs(a) - Math.abs(b));
-  return sortedArray.map((e) => e ** 2); */
-  // Another Solutions
-
   const total = nums.length;
   const sortedArray = Array.from({ length: total }, () => 0);
 
