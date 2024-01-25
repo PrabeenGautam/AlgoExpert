@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "tsx watch --clear-screen ./src/array/medium/firstDuplicateValue.ts",
+    "dev": "tsx watch --clear-screen ./src/array/medium/mergeOverlappingIntervals.ts",
     "start": "tsc && node dist/index.js"
   },
   "keywords": [],
