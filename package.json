@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "tsx watch --clear-screen ./src/random/countUnique.ts",
+    "dev": "tsx watch --clear-screen ./src/random/maxSubArraySum.ts",
     "start": "tsc && node dist/index.js"
   },
   "keywords": [],
